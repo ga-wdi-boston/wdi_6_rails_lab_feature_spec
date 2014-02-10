@@ -47,7 +47,9 @@ group :development do
 end
 
 group :test do
-
+  gem 'capybara'
+  gem 'launchy'  
+  
   gem 'faker'
   gem 'chronic'
 end
